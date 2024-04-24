@@ -1,0 +1,43 @@
+will-change: filter;
+transition: filter 300ms;
+
+galeria_img:hover{
+  filter: drop-shadow(0 0 2em #1500ff);
+}
+
+
+itensGaleria img{
+    width: 16em;
+    height: 12em;
+    border: 3px solid rgb(0, 0, 0);
+    will-change: filter;
+    transition: filter 300ms;
+    }
+    
+    itensGaleria img:hover{
+      filter: drop-shadow(0 0 2em #0800ff);
+    }
+
+    @media screen and (max-width: 600px){
+      *{
+        
+      }
+      
+        .container{
+            padding: 20px 0px;
+            display: flex;
+            flex-direction: column;
+        }
+      
+        .header{
+            gap: 30px;
+        }
+        .header a{
+            font-size: 15px;
+            padding: 5px 10px;
+        }
+        .header img{
+      filter: invert(100%);
+        }
+      }
+      

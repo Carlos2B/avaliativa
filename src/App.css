@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+font-family:monospace;
+}
+
+.navbar{
+  width: 100%;
+  background-color: rgb(0, 21, 255) ;
+  display: flex;
+  align-items: start;
+}
+
+.logo{
+  width: 1px;
+}
+
+.container{
+  display: flex;
+  align-items: end;
+}
+
+.container img{
+width: 20em;
+}
+
+.container p{
+  display: flex;
+}
+
+.galeria{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.galeria_img{
+  width: 16em;
+  height: 12em;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.containerimg{
+  border: 1px solid rgb(0, 0, 0);
+}
